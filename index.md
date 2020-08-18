@@ -1,15 +1,15 @@
 <html>
 
-<head>
+<head> 
     <meta name = "viewport" content = "width = device-width">
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/vue"></script>
+    <script src="vue.js"></script>
 </head>
 
 <body>
   <div id="my-vue-app">
-
      <div class="topCards" v-on:click="addCard">
         <div class="topCardsClass">
             <img id="AC" src="Cards/AC.jpg">
@@ -62,27 +62,20 @@
         <div class="topCardsClass">
             <img id="KH" src="Cards/KH.jpg">
             <span>{{counter[12]}}</span>
-        </div>
-        
-    </div>
-
+        </div>  
+      </div>
      <div id="yourCards" v-on:click="removeCard">
      	<img id="yc1">
      	<img id="yc2">
         <img id="yc3">
      </div>
-
      <div class="buttons">
         <button id="add" v-on:click="add">Add</button>
         <button id="newGame" v-on:click="newGame">New Game</button>
     </div>
-
     <div id="equity">
         <p>{{equity}}%</p>
     </div>
-
    </div>
-
 </body>
-<script src="vue.js"></script>
 </html>
