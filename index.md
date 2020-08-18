@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -9,6 +8,7 @@
 </head>
 
 <body>
+  <script src="vue.js"></script>
   <div id="my-vue-app">
 
      <div class="topCards" v-on:click="addCard">
@@ -85,5 +85,4 @@
    </div>
 
 </body>
-<script src="vue.js"></script>
 </html>
