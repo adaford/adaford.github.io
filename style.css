@@ -1,0 +1,58 @@
+.topCardsClass {
+	position: relative;
+	display: inline;
+}
+
+.topCardsClass img {
+	position: relative;
+	display: inline;
+	padding: 5px;
+  	height: 100px;
+  	width: 73px;
+  	margin-top: 10px;
+}
+
+.topCardsClass span {
+	position: absolute;
+	top: 50%;
+	left: 43%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: x-large;
+}
+
+#yourCards {
+	margin-left: 18%;
+	margin-top: 25px;
+}
+
+#yourCards img {
+	position: static;
+	padding: 5px;
+	height: 150px;
+	width: 98.2px;
+	border-style: solid;
+}
+
+.buttons {
+	margin-top: 5px;
+}
+
+#add {
+	font-size: x-large;
+    margin-left: 35%;
+}
+
+#newGame {
+	font-size: x-large;
+	margin-left: 35%;
+}
+
+#equity {
+	font-size: xx-large;
+	margin-left: 37%;
+	margin-top: 30px;
+}
+
+
