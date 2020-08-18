@@ -7,8 +7,8 @@
 	position: relative;
 	display: inline;
 	padding: 5px;
-  	height: 100px;
-  	width: 73px;
+  	height: 5em;
+  	width: auto;
   	margin-top: 10px;
 }
 
@@ -23,15 +23,15 @@
 }
 
 #yourCards {
-	margin-left: 18%;
-	margin-top: 25px;
+	margin-left: 3.6em;
+	margin-top: 2em;
 }
 
 #yourCards img {
 	position: static;
 	padding: 5px;
-	height: 150px;
-	width: 98.2px;
+	height: 6em;
+	width: 3.92em;
 	border-style: solid;
 }
 
@@ -41,17 +41,17 @@
 
 #add {
 	font-size: x-large;
-    margin-left: 35%;
+    margin-left: 5.5em;
 }
 
 #newGame {
-	font-size: x-large;
-	margin-left: 35%;
+	font-size: large;
+	margin-left: 2em;
 }
 
 #equity {
 	font-size: xx-large;
-	margin-left: 37%;
+	margin-left: 4.3em;
 	margin-top: 30px;
 }
 

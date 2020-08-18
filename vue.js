@@ -101,7 +101,7 @@ var App = new Vue({
       this.current_cards[1] = 0
       this.current_cards[2] = 0
       this.addPicture()
-      this.equity = 0
+      this.calculateEquity()
     }
   }
 
