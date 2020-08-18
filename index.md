@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/vue"></script>
-    <script src="vue.js"></script>
 </head>
-
 <body>
+  <script src="vue.js"></script>
   <div id="my-vue-app">
      <div class="topCards" v-on:click="addCard">
         <div class="topCardsClass">
